@@ -27,3 +27,4 @@ liaowei, 598951856@qq.com
 ## License
 
 LwOneWeekCalendar is available under the MIT license. See the LICENSE file for more info.
+显示一周之内的的日期，并且可以设置日期下面的颜色
