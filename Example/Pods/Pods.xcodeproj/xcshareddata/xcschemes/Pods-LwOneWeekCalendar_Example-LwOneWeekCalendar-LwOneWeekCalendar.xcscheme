@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1DFF6A787CE81065CA6685A"
+               BlueprintIdentifier = "B4A0F81140E14B3C0BC79768"
                BuildableName = "LwOneWeekCalendar.bundle"
                BlueprintName = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-LwOneWeekCalendar"
                ReferencedContainer = "container:Pods.xcodeproj">
