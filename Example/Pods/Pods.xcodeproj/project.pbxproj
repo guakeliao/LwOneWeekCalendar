@@ -1,0 +1,1235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20BC78AFBA64B2BA826ADF41 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 633B5CAB45B5615430B9E431 /* FBSnapshotTestController.m */; };
+		2BD00DB10175E9FF082BBAEA /* Pods-LwOneWeekCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B5DE896A113DBB811D77158 /* Pods-LwOneWeekCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F5EA794300F350992003112 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E13677B2340888D8572CDCF4 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C54241432DCF94D5047225 /* Pods-LwOneWeekCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F49C27D1CE883156DCB749E1 /* Pods-LwOneWeekCalendar_Example-dummy.m */; };
+		373837318957F23420180B08 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E91E1439962A05FCFF3A8FE /* XCTest.framework */; };
+		4263F20EA15023931E7DA9FE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C134EAB27523B5CD41103B9 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4281250551104C2815B7E325 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D07550F8D28750978E8D92E /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-dummy.m */; };
+		42E7FFD0621E7861FB26F1D2 /* Pods-LwOneWeekCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D15BF5E2308CF054BC8229 /* Pods-LwOneWeekCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C664AFB5DD661034E68E99C /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14558CF104BCDDC0332E3562 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-dummy.m */; };
+		4EC726FEF6A54D5D6ECB3B79 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C7542064AB14AEDA9689D2 /* ReplaceMe.m */; };
+		59636F623CCA76AD6EA8D453 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4063A01313CCD48B571442FF /* SwiftSupport.swift */; };
+		5B45AEE6455F66C63376E2D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5745C9AC2658C6A56D3B9 /* Foundation.framework */; };
+		5B85E69CC75F9D1D44B2CF0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5745C9AC2658C6A56D3B9 /* Foundation.framework */; };
+		5E7E886B117C35E03868A373 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5014525CF84E465673E3D9 /* UIImage+Compare.m */; };
+		64B9565DF914448951115D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5745C9AC2658C6A56D3B9 /* Foundation.framework */; };
+		699BD523C3672E7DB74F3E32 /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE0CA936460F5683E4C82CEE /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8981A757DAB2B1EA520F682C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5745C9AC2658C6A56D3B9 /* Foundation.framework */; };
+		9471CAF48FAF85821FA69ABC /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E94238D8F8C4FB4B4B506417 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0811C8DF00935D2A36FB866 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F67E75AAAD498285E0D3EF2 /* FBSnapshotTestCasePlatform.m */; };
+		AC8313A5D5B2406E9AD93CA5 /* LwOneWeekCalendar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E56E85EF1EBC4164A62186FE /* LwOneWeekCalendar.bundle */; };
+		AD75BCFF2991654AC089518A /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2B7121315684E5977CB9D8 /* FBSnapshotTestCase.m */; };
+		AE1666AAE9D913CC7BBDD26B /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B274AB897F303A0F5EF8916A /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-dummy.m */; };
+		BA3942E79B04E2DE168D4E39 /* Pods-LwOneWeekCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C8C4E046A8DA9576B8618 /* Pods-LwOneWeekCalendar_Tests-dummy.m */; };
+		BD8EA494C8EBF71AEAC8B765 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 7356C556273ED249EE30209E /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1B198B1FA9D19DB3E72FA36 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C7542064AB14AEDA9689D2 /* ReplaceMe.m */; };
+		C218E52DC287EE001DB0A91A /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4B6D7B45211841A3CD2481 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D128902C726E6BFB71B0DD4F /* LwOneWeekCalendar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EAA16D9A151AA6BF77B16CCA /* LwOneWeekCalendar.bundle */; };
+		D15531618BF795246E39CE45 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 555DD0698345AA1917C8CF2E /* UIImage+Diff.m */; };
+		E565550371254A62838D8F3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B5745C9AC2658C6A56D3B9 /* Foundation.framework */; };
+		F22508E7603A20D661DE5280 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD26D335315D9B12F29A938D /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE904E5840DE5DDE52BC67AE /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = AB898357AC948287EF00209C /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		299CD3D36477A8D013AEEF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABBF51B45744C959A6B383F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D07A375A6DE956CFB8618449;
+			remoteInfo = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-LwOneWeekCalendar";
+		};
+		3B3B75C0BB88B7498F00A768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABBF51B45744C959A6B383F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5915A65BB480CD50BA6A918F;
+			remoteInfo = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar";
+		};
+		47DBED3887A282C8C07E48BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABBF51B45744C959A6B383F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C97A57CBAF223877CCECEC;
+			remoteInfo = "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase";
+		};
+		710F8ACF69AFDFAF4EAFC645 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABBF51B45744C959A6B383F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB6A07173546C24E11B6E0B6;
+			remoteInfo = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar";
+		};
+		FE58BE924E8E7FAE0DF6EBC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABBF51B45744C959A6B383F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1DFF6A787CE81065CA6685A;
+			remoteInfo = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-LwOneWeekCalendar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0001007D5E057B55FC56AD65 /* Pods-LwOneWeekCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LwOneWeekCalendar_Tests.modulemap"; sourceTree = "<group>"; };
+		11B1AF2D286D983F20E6A3AA /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		11E25440DE0CA7ADF54BF9D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144C1C173083BD88CA074C28 /* Pods-LwOneWeekCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LwOneWeekCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		14558CF104BCDDC0332E3562 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-dummy.m"; path = "../Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-dummy.m"; sourceTree = "<group>"; };
+		15A6171FAFA5F42052D3D0E0 /* Pods-LwOneWeekCalendar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LwOneWeekCalendar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		17AE60C9A689F9806B8ABC8D /* Pods-LwOneWeekCalendar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LwOneWeekCalendar_Tests-resources.sh"; sourceTree = "<group>"; };
+		240281C249E1F4B164C89300 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-Private.xcconfig"; path = "../Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-Private.xcconfig"; sourceTree = "<group>"; };
+		262B5A7CDE946A194FB74655 /* Pods-LwOneWeekCalendar_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LwOneWeekCalendar_Example-environment.h"; sourceTree = "<group>"; };
+		2AC16DF030FB6F6B786F7078 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-Private.xcconfig"; sourceTree = "<group>"; };
+		2B5DE896A113DBB811D77158 /* Pods-LwOneWeekCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LwOneWeekCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2F67E75AAAD498285E0D3EF2 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		3334CDD7672AEBB085B8275D /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase.modulemap"; sourceTree = "<group>"; };
+		4063A01313CCD48B571442FF /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		43A0D29864751C88FCA803D5 /* LwOneWeekCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LwOneWeekCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A726C7E5127062C7755D4DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D07550F8D28750978E8D92E /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-dummy.m"; sourceTree = "<group>"; };
+		555DD0698345AA1917C8CF2E /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/UIImage+Diff.m"; sourceTree = "<group>"; };
+		58B5745C9AC2658C6A56D3B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		58F795C16D230F5E7A5E1F21 /* Pods-LwOneWeekCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LwOneWeekCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6118A64665060A08988127FF /* Pods-LwOneWeekCalendar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LwOneWeekCalendar_Example-resources.sh"; sourceTree = "<group>"; };
+		623BDB326CE9B0BE33815B83 /* Pods-LwOneWeekCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LwOneWeekCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		630943DEFEE8520C0BD17F38 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633B5CAB45B5615430B9E431 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		65CEBC10488EA425A313E587 /* Pods-LwOneWeekCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LwOneWeekCalendar_Example.modulemap"; sourceTree = "<group>"; };
+		69D14AA7A1CEF7CAAF1F1818 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-prefix.pch"; sourceTree = "<group>"; };
+		70F5C668EBD9229B81E47C26 /* Pods-LwOneWeekCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LwOneWeekCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		731AE09068E925E9BB8EAAF8 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-prefix.pch"; path = "../Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-prefix.pch"; sourceTree = "<group>"; };
+		7356C556273ED249EE30209E /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/UIImage+Compare.h"; sourceTree = "<group>"; };
+		74230810F21ED3877C841221 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar.xcconfig"; path = "../Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar.xcconfig"; sourceTree = "<group>"; };
+		7EFDDC4BEB49D46C51924736 /* Pods-LwOneWeekCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LwOneWeekCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F2078C778CE3C949DE1F043 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar.modulemap"; sourceTree = "<group>"; };
+		84046ECAAD377207E1B09AA5 /* Pods-LwOneWeekCalendar_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LwOneWeekCalendar_Tests-environment.h"; sourceTree = "<group>"; };
+		8C134EAB27523B5CD41103B9 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8E91E1439962A05FCFF3A8FE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		90047FCD6D10D5F376C67008 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar.xcconfig"; sourceTree = "<group>"; };
+		9210289F71B695687DAC9F3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Info.plist"; sourceTree = "<group>"; };
+		923BDB4B4700F77129484B87 /* Pods_LwOneWeekCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LwOneWeekCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		963B4DABC98B8A1B223B86A8 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar.modulemap"; path = "../Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar.modulemap"; sourceTree = "<group>"; };
+		9CEC80EB3B9D73902A154882 /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		9F5014525CF84E465673E3D9 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
+		AB898357AC948287EF00209C /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		AD72EBEB8AFE06762D57FF88 /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		AE0CA936460F5683E4C82CEE /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		B1D15BF5E2308CF054BC8229 /* Pods-LwOneWeekCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LwOneWeekCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
+		B274AB897F303A0F5EF8916A /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		B3FE2C964375422A5B63ACB3 /* Pods-LwOneWeekCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LwOneWeekCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BBE597EF5BFC152F70B43AAB /* Pods_LwOneWeekCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LwOneWeekCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF09D7954AF7100572AE358F /* Pods-LwOneWeekCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LwOneWeekCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C5B012D0385FC57F716F11BD /* Pods-LwOneWeekCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LwOneWeekCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C6C7542064AB14AEDA9689D2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		D069F9C02E0B704B14C6132D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D059FE62416CDB9CD36D0F /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase.xcconfig"; sourceTree = "<group>"; };
+		DCF5DA956D87389EA560173F /* Pods-LwOneWeekCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LwOneWeekCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE055B003FEA5BAFE5DA8611 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4B6D7B45211841A3CD2481 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-umbrella.h"; path = "../Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-umbrella.h"; sourceTree = "<group>"; };
+		DFB383488446DF1265453FA1 /* LwOneWeekCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LwOneWeekCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13677B2340888D8572CDCF4 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E56E85EF1EBC4164A62186FE /* LwOneWeekCalendar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LwOneWeekCalendar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94238D8F8C4FB4B4B506417 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-umbrella.h"; sourceTree = "<group>"; };
+		EAA16D9A151AA6BF77B16CCA /* LwOneWeekCalendar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LwOneWeekCalendar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2B7121315684E5977CB9D8 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		F22C8C4E046A8DA9576B8618 /* Pods-LwOneWeekCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LwOneWeekCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
+		F49C27D1CE883156DCB749E1 /* Pods-LwOneWeekCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LwOneWeekCalendar_Example-dummy.m"; sourceTree = "<group>"; };
+		FD26D335315D9B12F29A938D /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1418633A1CCAC26E38904DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E565550371254A62838D8F3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51D51DEB50BFE46D9913CC62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B85E69CC75F9D1D44B2CF0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A7338C5B41BB7481582AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16AD0E81F8B6C8365592D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B45AEE6455F66C63376E2D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BB1371C7352C981BE05642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8981A757DAB2B1EA520F682C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA966AE4748BA6612082780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8369A4B36901ED802AC57C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B9565DF914448951115D0A /* Foundation.framework in Frameworks */,
+				373837318957F23420180B08 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0690D36641710B3D7AEC91D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC58EF7F05B1BBC1B13C469E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		144BE96DD325024B8BF0E53C /* Pods-LwOneWeekCalendar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DE055B003FEA5BAFE5DA8611 /* Info.plist */,
+				0001007D5E057B55FC56AD65 /* Pods-LwOneWeekCalendar_Tests.modulemap */,
+				70F5C668EBD9229B81E47C26 /* Pods-LwOneWeekCalendar_Tests-acknowledgements.markdown */,
+				DCF5DA956D87389EA560173F /* Pods-LwOneWeekCalendar_Tests-acknowledgements.plist */,
+				F22C8C4E046A8DA9576B8618 /* Pods-LwOneWeekCalendar_Tests-dummy.m */,
+				84046ECAAD377207E1B09AA5 /* Pods-LwOneWeekCalendar_Tests-environment.h */,
+				15A6171FAFA5F42052D3D0E0 /* Pods-LwOneWeekCalendar_Tests-frameworks.sh */,
+				17AE60C9A689F9806B8ABC8D /* Pods-LwOneWeekCalendar_Tests-resources.sh */,
+				2B5DE896A113DBB811D77158 /* Pods-LwOneWeekCalendar_Tests-umbrella.h */,
+				144C1C173083BD88CA074C28 /* Pods-LwOneWeekCalendar_Tests.debug.xcconfig */,
+				58F795C16D230F5E7A5E1F21 /* Pods-LwOneWeekCalendar_Tests.release.xcconfig */,
+			);
+			name = "Pods-LwOneWeekCalendar_Tests";
+			path = "Target Support Files/Pods-LwOneWeekCalendar_Tests";
+			sourceTree = "<group>";
+		};
+		34086B7ADDDE72E806C40FD0 /* Pods-LwOneWeekCalendar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				11E25440DE0CA7ADF54BF9D0 /* Info.plist */,
+				65CEBC10488EA425A313E587 /* Pods-LwOneWeekCalendar_Example.modulemap */,
+				BF09D7954AF7100572AE358F /* Pods-LwOneWeekCalendar_Example-acknowledgements.markdown */,
+				7EFDDC4BEB49D46C51924736 /* Pods-LwOneWeekCalendar_Example-acknowledgements.plist */,
+				F49C27D1CE883156DCB749E1 /* Pods-LwOneWeekCalendar_Example-dummy.m */,
+				262B5A7CDE946A194FB74655 /* Pods-LwOneWeekCalendar_Example-environment.h */,
+				623BDB326CE9B0BE33815B83 /* Pods-LwOneWeekCalendar_Example-frameworks.sh */,
+				6118A64665060A08988127FF /* Pods-LwOneWeekCalendar_Example-resources.sh */,
+				B1D15BF5E2308CF054BC8229 /* Pods-LwOneWeekCalendar_Example-umbrella.h */,
+				B3FE2C964375422A5B63ACB3 /* Pods-LwOneWeekCalendar_Example.debug.xcconfig */,
+				C5B012D0385FC57F716F11BD /* Pods-LwOneWeekCalendar_Example.release.xcconfig */,
+			);
+			name = "Pods-LwOneWeekCalendar_Example";
+			path = "Target Support Files/Pods-LwOneWeekCalendar_Example";
+			sourceTree = "<group>";
+		};
+		3AB4C0F6A844F584F5C596BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				630943DEFEE8520C0BD17F38 /* FBSnapshotTestCase.framework */,
+				EAA16D9A151AA6BF77B16CCA /* LwOneWeekCalendar.bundle */,
+				E56E85EF1EBC4164A62186FE /* LwOneWeekCalendar.bundle */,
+				43A0D29864751C88FCA803D5 /* LwOneWeekCalendar.framework */,
+				DFB383488446DF1265453FA1 /* LwOneWeekCalendar.framework */,
+				923BDB4B4700F77129484B87 /* Pods_LwOneWeekCalendar_Example.framework */,
+				BBE597EF5BFC152F70B43AAB /* Pods_LwOneWeekCalendar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E875669045E87D3BD9F76E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34086B7ADDDE72E806C40FD0 /* Pods-LwOneWeekCalendar_Example */,
+				144BE96DD325024B8BF0E53C /* Pods-LwOneWeekCalendar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		86975BA812F0C0F0EDAE1B36 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A726C7E5127062C7755D4DD /* Info.plist */,
+				3334CDD7672AEBB085B8275D /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase.modulemap */,
+				D3D059FE62416CDB9CD36D0F /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase.xcconfig */,
+				AD72EBEB8AFE06762D57FF88 /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-Private.xcconfig */,
+				B274AB897F303A0F5EF8916A /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-dummy.m */,
+				9CEC80EB3B9D73902A154882 /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-prefix.pch */,
+				AE0CA936460F5683E4C82CEE /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		8CCC9E3FC72A8C2A7BB6BDCE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BA6A33124A77D20F9C5DFFF1 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		934D69A95363D9DD58419C4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D069F9C02E0B704B14C6132D /* Info.plist */,
+				9210289F71B695687DAC9F3D /* Info.plist */,
+				7F2078C778CE3C949DE1F043 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar.modulemap */,
+				90047FCD6D10D5F376C67008 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar.xcconfig */,
+				2AC16DF030FB6F6B786F7078 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-Private.xcconfig */,
+				4D07550F8D28750978E8D92E /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-dummy.m */,
+				69D14AA7A1CEF7CAAF1F1818 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-prefix.pch */,
+				E94238D8F8C4FB4B4B506417 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-umbrella.h */,
+				963B4DABC98B8A1B223B86A8 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar.modulemap */,
+				74230810F21ED3877C841221 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar.xcconfig */,
+				240281C249E1F4B164C89300 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-Private.xcconfig */,
+				14558CF104BCDDC0332E3562 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-dummy.m */,
+				731AE09068E925E9BB8EAAF8 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-prefix.pch */,
+				DE4B6D7B45211841A3CD2481 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar";
+			sourceTree = "<group>";
+		};
+		97DFD1C6887EE5AE278058E9 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				4063A01313CCD48B571442FF /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		AFCEB2CB1B17687D824AAB51 = {
+			isa = PBXGroup;
+			children = (
+				11B1AF2D286D983F20E6A3AA /* Podfile */,
+				FF739EEB9C374BDB00B77913 /* Development Pods */,
+				0690D36641710B3D7AEC91D4 /* Frameworks */,
+				E467C3AD83816344E9F901BF /* Pods */,
+				3AB4C0F6A844F584F5C596BC /* Products */,
+				44E875669045E87D3BD9F76E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BA6A33124A77D20F9C5DFFF1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C6C7542064AB14AEDA9689D2 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D32D0DEEF449C01D1B5111EA /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				EA0A61080A699AFDC79BD96F /* Core */,
+				86975BA812F0C0F0EDAE1B36 /* Support Files */,
+				97DFD1C6887EE5AE278058E9 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		E467C3AD83816344E9F901BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D32D0DEEF449C01D1B5111EA /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA0A61080A699AFDC79BD96F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AB898357AC948287EF00209C /* FBSnapshotTestCase.h */,
+				ED2B7121315684E5977CB9D8 /* FBSnapshotTestCase.m */,
+				8C134EAB27523B5CD41103B9 /* FBSnapshotTestCasePlatform.h */,
+				2F67E75AAAD498285E0D3EF2 /* FBSnapshotTestCasePlatform.m */,
+				FD26D335315D9B12F29A938D /* FBSnapshotTestController.h */,
+				633B5CAB45B5615430B9E431 /* FBSnapshotTestController.m */,
+				7356C556273ED249EE30209E /* UIImage+Compare.h */,
+				9F5014525CF84E465673E3D9 /* UIImage+Compare.m */,
+				E13677B2340888D8572CDCF4 /* UIImage+Diff.h */,
+				555DD0698345AA1917C8CF2E /* UIImage+Diff.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F31D025B03F2B73B763807B2 /* LwOneWeekCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				8CCC9E3FC72A8C2A7BB6BDCE /* Pod */,
+				934D69A95363D9DD58419C4A /* Support Files */,
+			);
+			name = LwOneWeekCalendar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC58EF7F05B1BBC1B13C469E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				58B5745C9AC2658C6A56D3B9 /* Foundation.framework */,
+				8E91E1439962A05FCFF3A8FE /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FF739EEB9C374BDB00B77913 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F31D025B03F2B73B763807B2 /* LwOneWeekCalendar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9FDF1DF16A8ED8513F7BA6A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E7FFD0621E7861FB26F1D2 /* Pods-LwOneWeekCalendar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09CEE5155D8067AB0B4E93C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD00DB10175E9FF082BBAEA /* Pods-LwOneWeekCalendar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F801DD389D939EE2EB2F620A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9471CAF48FAF85821FA69ABC /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95CA129DF1476F148612F9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C218E52DC287EE001DB0A91A /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1D67607891807870CFDD5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE904E5840DE5DDE52BC67AE /* FBSnapshotTestCase.h in Headers */,
+				4263F20EA15023931E7DA9FE /* FBSnapshotTestCasePlatform.h in Headers */,
+				F22508E7603A20D661DE5280 /* FBSnapshotTestController.h in Headers */,
+				699BD523C3672E7DB74F3E32 /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-umbrella.h in Headers */,
+				BD8EA494C8EBF71AEAC8B765 /* UIImage+Compare.h in Headers */,
+				2F5EA794300F350992003112 /* UIImage+Diff.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5915A65BB480CD50BA6A918F /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6623E53E1AC598088D5796D /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar" */;
+			buildPhases = (
+				F868887A9D76CCFE001B0D6A /* Sources */,
+				B7BB1371C7352C981BE05642 /* Frameworks */,
+				2DC2A80BC6D4F105E3A333EC /* Resources */,
+				F801DD389D939EE2EB2F620A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33DAD0532444BC89F1AF83E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar";
+			productName = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar";
+			productReference = DFB383488446DF1265453FA1 /* LwOneWeekCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77AF8999C03C0A449CA5D4CF /* Pods-LwOneWeekCalendar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF8D610C88869A379F49D0A /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Tests" */;
+			buildPhases = (
+				152E86B0A67979B5DC6C8716 /* Sources */,
+				1418633A1CCAC26E38904DA0 /* Frameworks */,
+				A09CEE5155D8067AB0B4E93C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00B8DCEC6EBFF146E233FE5F /* PBXTargetDependency */,
+				24050C759F3753EC38C8A52A /* PBXTargetDependency */,
+			);
+			name = "Pods-LwOneWeekCalendar_Tests";
+			productName = "Pods-LwOneWeekCalendar_Tests";
+			productReference = BBE597EF5BFC152F70B43AAB /* Pods_LwOneWeekCalendar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9B29D2EB44EF2B81CAB0EBB /* Pods-LwOneWeekCalendar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77E30D490B6688D2D3B33CB /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Example" */;
+			buildPhases = (
+				15EC68FC015F3AE08974175D /* Sources */,
+				51D51DEB50BFE46D9913CC62 /* Frameworks */,
+				9FDF1DF16A8ED8513F7BA6A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CAC4AA26DF46918C77BCCA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-LwOneWeekCalendar_Example";
+			productName = "Pods-LwOneWeekCalendar_Example";
+			productReference = 923BDB4B4700F77129484B87 /* Pods_LwOneWeekCalendar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1C97A57CBAF223877CCECEC /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC2617C44F105C060CFEBFC /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase" */;
+			buildPhases = (
+				C919242DABA51B25639DD4AC /* Sources */,
+				F8369A4B36901ED802AC57C9 /* Frameworks */,
+				FE1D67607891807870CFDD5B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase";
+			productName = "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase";
+			productReference = 630943DEFEE8520C0BD17F38 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB6A07173546C24E11B6E0B6 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4494BF37EEAE0A6E50C8FA7 /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar" */;
+			buildPhases = (
+				8AEADA98D26F7F097C3B519E /* Sources */,
+				A16AD0E81F8B6C8365592D98 /* Frameworks */,
+				52656FB30C6D2A400C3C6B2A /* Resources */,
+				F95CA129DF1476F148612F9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				492A9732CEE10F5B70DF3FD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar";
+			productName = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar";
+			productReference = 43A0D29864751C88FCA803D5 /* LwOneWeekCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D07A375A6DE956CFB8618449 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-LwOneWeekCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A314CE4F5EE63745ED4D875A /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-LwOneWeekCalendar" */;
+			buildPhases = (
+				4D8F33EF7B8802BEEA938D05 /* Sources */,
+				57A7338C5B41BB7481582AB7 /* Frameworks */,
+				B78BF0608AB60DED253C2E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-LwOneWeekCalendar";
+			productName = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-LwOneWeekCalendar";
+			productReference = E56E85EF1EBC4164A62186FE /* LwOneWeekCalendar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F1DFF6A787CE81065CA6685A /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-LwOneWeekCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981348205BB28CF49D67AB8F /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-LwOneWeekCalendar" */;
+			buildPhases = (
+				8A2E468E1CDA75BDE3A95B93 /* Sources */,
+				DFA966AE4748BA6612082780 /* Frameworks */,
+				9144BBF51AC0AA545F9A0493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-LwOneWeekCalendar";
+			productName = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-LwOneWeekCalendar";
+			productReference = EAA16D9A151AA6BF77B16CCA /* LwOneWeekCalendar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABBF51B45744C959A6B383F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 5E501BAD0C6C6B0E80F40896 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFCEB2CB1B17687D824AAB51;
+			productRefGroup = 3AB4C0F6A844F584F5C596BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B29D2EB44EF2B81CAB0EBB /* Pods-LwOneWeekCalendar_Example */,
+				5915A65BB480CD50BA6A918F /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar */,
+				F1DFF6A787CE81065CA6685A /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-LwOneWeekCalendar */,
+				77AF8999C03C0A449CA5D4CF /* Pods-LwOneWeekCalendar_Tests */,
+				B1C97A57CBAF223877CCECEC /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase */,
+				CB6A07173546C24E11B6E0B6 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar */,
+				D07A375A6DE956CFB8618449 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-LwOneWeekCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DC2A80BC6D4F105E3A333EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D128902C726E6BFB71B0DD4F /* LwOneWeekCalendar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52656FB30C6D2A400C3C6B2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8313A5D5B2406E9AD93CA5 /* LwOneWeekCalendar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9144BBF51AC0AA545F9A0493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78BF0608AB60DED253C2E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		152E86B0A67979B5DC6C8716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3942E79B04E2DE168D4E39 /* Pods-LwOneWeekCalendar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EC68FC015F3AE08974175D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C54241432DCF94D5047225 /* Pods-LwOneWeekCalendar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D8F33EF7B8802BEEA938D05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A2E468E1CDA75BDE3A95B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEADA98D26F7F097C3B519E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C664AFB5DD661034E68E99C /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-dummy.m in Sources */,
+				C1B198B1FA9D19DB3E72FA36 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C919242DABA51B25639DD4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD75BCFF2991654AC089518A /* FBSnapshotTestCase.m in Sources */,
+				A0811C8DF00935D2A36FB866 /* FBSnapshotTestCasePlatform.m in Sources */,
+				20BC78AFBA64B2BA826ADF41 /* FBSnapshotTestController.m in Sources */,
+				AE1666AAE9D913CC7BBDD26B /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-dummy.m in Sources */,
+				59636F623CCA76AD6EA8D453 /* SwiftSupport.swift in Sources */,
+				5E7E886B117C35E03868A373 /* UIImage+Compare.m in Sources */,
+				D15531618BF795246E39CE45 /* UIImage+Diff.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F868887A9D76CCFE001B0D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4281250551104C2815B7E325 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-dummy.m in Sources */,
+				4EC726FEF6A54D5D6ECB3B79 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00B8DCEC6EBFF146E233FE5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase";
+			target = B1C97A57CBAF223877CCECEC /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase */;
+			targetProxy = 47DBED3887A282C8C07E48BD /* PBXContainerItemProxy */;
+		};
+		24050C759F3753EC38C8A52A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar";
+			target = CB6A07173546C24E11B6E0B6 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar */;
+			targetProxy = 710F8ACF69AFDFAF4EAFC645 /* PBXContainerItemProxy */;
+		};
+		33DAD0532444BC89F1AF83E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-LwOneWeekCalendar";
+			target = F1DFF6A787CE81065CA6685A /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-LwOneWeekCalendar */;
+			targetProxy = FE58BE924E8E7FAE0DF6EBC9 /* PBXContainerItemProxy */;
+		};
+		492A9732CEE10F5B70DF3FD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-LwOneWeekCalendar";
+			target = D07A375A6DE956CFB8618449 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-LwOneWeekCalendar */;
+			targetProxy = 299CD3D36477A8D013AEEF7E /* PBXContainerItemProxy */;
+		};
+		9CAC4AA26DF46918C77BCCA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar";
+			target = 5915A65BB480CD50BA6A918F /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar */;
+			targetProxy = 3B3B75C0BB88B7498F00A768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		057F6A89D67ABEB793731916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3FE2C964375422A5B63ACB3 /* Pods-LwOneWeekCalendar_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Example/Pods-LwOneWeekCalendar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LwOneWeekCalendar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		069C171C946350EA8DF00A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 144C1C173083BD88CA074C28 /* Pods-LwOneWeekCalendar_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests/Pods-LwOneWeekCalendar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LwOneWeekCalendar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E05182E2DBF39B95BA3AF81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240281C249E1F4B164C89300 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LwOneWeekCalendar_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LwOneWeekCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		30A88CA8D16CA8FCFF0D3418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC16DF030FB6F6B786F7078 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LwOneWeekCalendar_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LwOneWeekCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		349C5FF179BBD87A41DE049D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F795C16D230F5E7A5E1F21 /* Pods-LwOneWeekCalendar_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests/Pods-LwOneWeekCalendar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LwOneWeekCalendar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		42A9FE323A2D278CF31A72B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC16DF030FB6F6B786F7078 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LwOneWeekCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		697EC127804C89B014301F83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79BA2808B8005C7359F85EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD72EBEB8AFE06762D57FF88 /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase/Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase/Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BC88A79C36344E0CCBD545F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240281C249E1F4B164C89300 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LwOneWeekCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80D76887EC5F566518690E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC16DF030FB6F6B786F7078 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LwOneWeekCalendar_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LwOneWeekCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		86BFE25C8E56B09EAAC55547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC16DF030FB6F6B786F7078 /* Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LwOneWeekCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A131A6D466076008203013AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5B012D0385FC57F716F11BD /* Pods-LwOneWeekCalendar_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Example/Pods-LwOneWeekCalendar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LwOneWeekCalendar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF553436CE3AB31420189F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240281C249E1F4B164C89300 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar/Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LwOneWeekCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C98A944B07CC18A2550CE724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CA8CD968D86EEBA5FC5CF224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240281C249E1F4B164C89300 /* Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LwOneWeekCalendar_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LwOneWeekCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FD583901481FCAE8F440C296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD72EBEB8AFE06762D57FF88 /* Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase/Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase/Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E501BAD0C6C6B0E80F40896 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98A944B07CC18A2550CE724 /* Debug */,
+				697EC127804C89B014301F83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC2617C44F105C060CFEBFC /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Tests-FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BA2808B8005C7359F85EF7 /* Debug */,
+				FD583901481FCAE8F440C296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF8D610C88869A379F49D0A /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				069C171C946350EA8DF00A54 /* Debug */,
+				349C5FF179BBD87A41DE049D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981348205BB28CF49D67AB8F /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar-LwOneWeekCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A88CA8D16CA8FCFF0D3418 /* Debug */,
+				80D76887EC5F566518690E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A314CE4F5EE63745ED4D875A /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar-LwOneWeekCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8CD968D86EEBA5FC5CF224 /* Debug */,
+				2E05182E2DBF39B95BA3AF81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4494BF37EEAE0A6E50C8FA7 /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Tests-LwOneWeekCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF553436CE3AB31420189F7D /* Debug */,
+				7BC88A79C36344E0CCBD545F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77E30D490B6688D2D3B33CB /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057F6A89D67ABEB793731916 /* Debug */,
+				A131A6D466076008203013AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6623E53E1AC598088D5796D /* Build configuration list for PBXNativeTarget "Pods-LwOneWeekCalendar_Example-LwOneWeekCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A9FE323A2D278CF31A72B2 /* Debug */,
+				86BFE25C8E56B09EAAC55547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABBF51B45744C959A6B383F /* Project object */;
+}

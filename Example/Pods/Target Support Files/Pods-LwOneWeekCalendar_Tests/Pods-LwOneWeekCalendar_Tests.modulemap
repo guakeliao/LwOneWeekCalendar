@@ -1,0 +1,6 @@
+framework module Pods_LwOneWeekCalendar_Tests {
+  umbrella header "Pods-LwOneWeekCalendar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

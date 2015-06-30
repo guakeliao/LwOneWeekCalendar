@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_LwOneWeekCalendar_Example_LwOneWeekCalendar : NSObject
+@end
+@implementation PodsDummy_Pods_LwOneWeekCalendar_Example_LwOneWeekCalendar
+@end
