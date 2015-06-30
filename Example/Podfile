@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'LwOneWeekCalendar_Example', :exclusive => true do
+  pod "LwOneWeekCalendar", :path => "../"
+end
+
+target 'LwOneWeekCalendar_Tests', :exclusive => true do
+  pod "LwOneWeekCalendar", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
